@@ -73,8 +73,10 @@
  <ul> </ul>
  <h2> Wireframes </h2>
  
- 
-    
+ ![IMG_1024](https://user-images.githubusercontent.com/55476003/219263917-b6029a4a-3f93-402c-abb1-85a54034993d.PNG)
+
+    [WTD.pdf](https://github.com/The-Group-With-Three-People/The-Group-With-Three_People/files/10751967/WTD.pdf)
+
   
   
   
