@@ -1,0 +1,19 @@
+1. Is this the first date? 
+Y/N
+
+2. How well do you know each other?
+*Strangers/*Acquaintances/Friends/Best friends/Dating
+(If Strangers/Acquaintances, skip next question. PUBLIC BY DEFAULT!!)
+
+3. Public or Private setting?
+Public/Private
+
+4. Low, moderate, or high activity?
+Low/Moderate/High
+
+5. *SHOW RESULTS*
+A. B. C. D.
+
+6.(All other options) Save these for next time?
+Y/N
+
