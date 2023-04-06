@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Questionnaire</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+
+<!-- Header with Menu -->
+<header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-primary">
+        <a class="navbar-brand text-light"></a>
+        <button class="navbar-toggler navbar-light" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="saved">Saved</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="#questionnaire">Take the Questionnaire!</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="#settings">Settings</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</header>
+
+<form id="quiz-form">
+    <div class="question">
+        <h3>Is this your first date with this person?</h3>
+        <div class="answer">
+            <input type="radio" name="q1" value="A"> Yes<br>
+            <input type="radio" name="q1" value="B"> No<br>
+
+        </div>
+    </div>
+
+    <div class="question">
+        <h3> How well do you know each other?</h3>
+        <div class="answer">
+            <input type="radio" name="q2" value="A"> Strangers<br>
+            <input type="radio" name="q2" value="B"> Acquaintances<br>
+            <input type="radio" name="q2" value="C"> Friends <br>
+            <input type="radio" name="q2" value="D"> Best Friends <br>
+            <input type="radio" name="q2" value="E"> Dating<br>
+
+        </div>
+    </div>
+
+    <div class="question">
+        <h3>Do you prefer a public or private setting?</h3>
+        <div class="answer">
+            <input type="radio" name="q3" value="A"> Public<br>
+            <input type="radio" name="q3" value="B"> Private<br>
+
+        </div>
+    </div>
+
+    <div class="question">
+        <h3>Low, moderate, or high activity? Think </h3>
+        <div class="answer">
+            <input type="radio" name="q4" value="A"> Low<br>
+            <input type="radio" name="q4" value="B"> Moderate<br>
+            <input type="radio" name="q4" value="C"> High<br>
+
+        </div>
+    </div>
+
+    <div class="question">
+        <h3>What's your budget? </h3>
+        <div class="answer">
+            <input type="radio" name="q5" value="A"> $0-30<br>
+            <input type="radio" name="q5" value="B"> Moderate<br>
+            <input type="radio" name="q5" value="C"> High<br>
+
+
+
+    <button type="submit">Submit</button>
+</form>
