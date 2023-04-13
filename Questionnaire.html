@@ -4,7 +4,9 @@
     <title>Questionnaire</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Include Bootstrap CSS and JavaScript files -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.3/css/bootstrap.min.css" integrity="sha512-Nexi9Ov6kKjA/HIX2jOKdS5G5/W5MfES/ZPIjK3q1k/nYh2LdR0Zef1D60jWtlp8wArl0/TdKjy7rkbMvAaV7w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.3/js/bootstrap.bundle.min.js" integrity="sha512-KRyyIc8p13N/0NOrP31vFhN55XFCz/UPeKLdQnCiNOnfya3cID5SfS5C5yKj6bGmQHu4U4lLx6ZwUjK+hMYh+w==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </head>
 <body>
 
@@ -35,54 +37,80 @@
 </header>
 
 <form id="quiz-form">
-    <div class="question">
-        <h3>Is this your first date with this person?</h3>
-        <div class="answer">
-            <input type="radio" name="q1" value="A"> Yes<br>
-            <input type="radio" name="q1" value="B"> No<br>
-
+    <div class="question card">
+        <div class="card-body">
+            <h3 class="card-title">Is this your first date with this person?</h3>
+            <div class="answer">
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="q1" id="q1a" value="A">
+                    <label class="form-check-label" for="q1a">Yes</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="q1" id="q1b" value="B">
+                    <label class="form-check-label" for="q1b">No</label>
+                </div>
+            </div>
         </div>
     </div>
+</form>
+
 
     <div class="question">
-        <h3> How well do you know each other?</h3>
+        <h3>How well do you know each other?</h3>
         <div class="answer">
             <input type="radio" name="q2" value="A"> Strangers<br>
             <input type="radio" name="q2" value="B"> Acquaintances<br>
-            <input type="radio" name="q2" value="C"> Friends <br>
-            <input type="radio" name="q2" value="D"> Best Friends <br>
+            <input type="radio" name="q2" value="C"> Friends<br>
+            <input type="radio" name="q2" value="D"> Best Friends<br>
             <input type="radio" name="q2" value="E"> Dating<br>
-
         </div>
     </div>
 
     <div class="question">
-        <h3>Do you prefer a public or private setting?</h3>
+        <h3>What type of date are you looking for?</h3>
         <div class="answer">
-            <input type="radio" name="q3" value="A"> Public<br>
-            <input type="radio" name="q3" value="B"> Private<br>
-
+            <input type="radio" name="q3" value="A"> Active/outdoor<br>
+            <input type="radio" name="q3" value="B"> Low-key/relaxed<br>
+            <input type="radio" name="q3" value="C"> Fancy/formal<br>
+            <input type="radio" name="q3" value="D"> Cultural/educational<br>
+            <input type="radio" name="q3" value="E"> Other<br>
         </div>
     </div>
 
     <div class="question">
-        <h3>Low, moderate, or high activity? Think </h3>
+        <h3>What is your budget for the date?</h3>
         <div class="answer">
-            <input type="radio" name="q4" value="A"> Low<br>
-            <input type="radio" name="q4" value="B"> Moderate<br>
-            <input type="radio" name="q4" value="C"> High<br>
-
+            <input type="radio" name="q4" value="A"> Under $25<br>
+            <input type="radio" name="q4" value="B"> $25-$50<br>
+            <input type="radio" name="q4" value="C"> $50-$100<br>
+            <input type="radio" name="q4" value="D"> Over $100<br>
+            <input type="radio" name="q4" value="E"> It's not about the money<br>
         </div>
     </div>
 
     <div class="question">
-        <h3>What's your budget? </h3>
+        <h3>What are your food preferences?</h3>
         <div class="answer">
-            <input type="radio" name="q5" value="A"> $0-30<br>
-            <input type="radio" name="q5" value="B"> Moderate<br>
-            <input type="radio" name="q5" value="C"> High<br>
+            <input type="radio" name="q5" value="A"> Vegan<br>
+            <input type="radio" name="q5" value="B"> Vegetarian<br>
+            <input type="radio" name="q5" value="C"> Gluten-free<br>
+            <input type="radio" name="q5" value="D"> Allergies<br>
+            <input type="radio" name="q5" value="E"> None of the above<br>
+        </div>
+    </div>
 
 
 
-    <button type="submit">Submit</button>
-</form>
+
+
+
+
+
+
+<button type="submit">Submit</button>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="path/to/bootstrap/js/bootstrap.min.js"></script>
+<script src="path/to/your/javascript.js"></script>
+</body>
+</html>
